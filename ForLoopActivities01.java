@@ -1,79 +1,78 @@
-public class MyProgram
-{
-    public static void main(String[] args)
-    {
-      /*****************
-      * FOR LOOP NOTES *
-      ******************
-      *  
-      * For loops allow you to set all the parameters of the
-      * loop in one line. This makes it easy to set how many
-      * times the loop repeats, where it starts, and where it 
-      * ends.
-      * 
-      * For Loop Parameters
-      *  1) Loop Variable (usually int)
-      *  2) Loop condition. Loop continues while the condition is true.
-      *  3) increment/decrement. How much to change the loop variable
-      *     after each iteration of the loop.
-      * 
-      */
-        
-        // Repeat a message 10 times
-        for( int x = 0; x < 10; x++ ){
-            // repeat this
-            System.out.println("it worked!");
-        }
-        
-        System.out.println(); //extra line
-        
-        // Use loop variable in the body of the loop
-        for( int x = 0; x < 10; x++ ){
-            System.out.print(x);
-        }
-        
-        System.out.println(); //extra line
-        
-        // Same as above with spaces added
-        for( int x = 0; x < 10; x++ ){
-            System.out.print(x + " ");
-        }
-        
-        System.out.println(); //extra line
-        System.out.println(); //extra line
-        
-        // Start or end at any number you want
-        for( int i = 8; i > -2; i-- ){
-            System.out.print(i);
-        }
-        
-        System.out.println(); //extra line
-        System.out.println(); //extra line
-        
-        // Increment by any amount
-        for( int i = 3; i <= 33; i+=3 ){
-            System.out.print(i);
-        }
-        
-        System.out.println(); //extra line
-        System.out.println(); //extra line
-        
-        // Do math with the loop variable.
-        // For example: sum all the numbers from 1-100
-        int sum = 0;
-        for( int i = 1; i <= 100; i++ ){
-            sum += i;
-        }
-        System.out.println(sum);
-        
-        // Some random math information
-        Math.random();
-        
-        //Square root
-        System.out.println( Math.sqrt(64) );
-        
-        //Raise any number to any power
-        System.out.println( Math.pow(2,3) );
-        
-    }
-}
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+
+/**********************
+* FOR LOOP ACTIVITIES *
+**********************
+Assignment: Write code that uses a SEPARATE for loop to accomplish each of the following tasks. Print two new lines after each problem to separate its output from the next one.(25 points)
+*/
+
+// 1) Print the name of your favorite dessert three times (2 points)
+
+System.out.println();
+System.out.println();
+// 2) Print a $ 10 times on one line (2 points)
+
+System.out.println();
+System.out.println();
+// 3) Print 10 $ each on a different line (2 points)
+ 
+System.out.println();
+System.out.println();
+
+// 4) Print the numbers 1-20 on one line (2 points)
+
+System.out.println();
+System.out.println();
+// 5) Print the numbers 20-25 on one line (2 points)
+
+    
+System.out.println();
+System.out.println();
+    
+// 6) Print the numbers 10-1 (in decreasing order) on one line (2 points)
+
+    
+System.out.println();
+System.out.println();
+    
+// 7) Print the numbers -20 through -10 (in increasing order) on one line (2 points)
+
+System.out.println();
+System.out.println();
+    
+// 8) Count from 5 to 100 by 5s, printing each number on the same line. Print spaces between the numbers.  (3 points)
+
+    
+System.out.println();
+System.out.println();
+// The next two will require use of Math methods
+
+// Print the square of all numbers from 1-20 on one line. Use Math.pow() to square a number. Print spaces between the numbers. (3 points)
+
+    
+    System.out.println();
+    System.out.println();
+    
+// Print the square root of all numbers from 1-20. Use Math.sqrt() to get the square root of the number.
+System.out.println("i | SQUARE ROOT");
+System.out.println("~~~~~~~~~~~~~~~~~~~~~~");
+
+
+System.out.println();
+System.out.println();
+// Print 100 random integers between 1-10 in the console (5 points)
+
+
+/************
+* CHALLENGE *
+*************
+Write a program that asks the user how many random numbers they want.
+Then print that many random integers, each on a new line.
+*/
+
+  
+  } //end main
+} //end Main
