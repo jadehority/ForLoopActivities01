@@ -10,7 +10,10 @@ Assignment: Write code that uses a SEPARATE for loop to accomplish each of the f
 */
 
 // 1) Print the name of your favorite dessert three times (2 points)
-
+for(int x = 0; x < 3; x++) {
+System.out.println("Cupcake");
+}
+        
 System.out.println();
 System.out.println();
 // 2) Print a $ 10 times on one line (2 points)
